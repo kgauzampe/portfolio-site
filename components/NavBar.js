@@ -33,12 +33,17 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="/learn-more">
-                <a>Learn more</a>
+              <Link href="/skills">
+                <a>Skills</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/projects">
+                <a>projects</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact">
                 <a>Contact</a>
               </Link>
             </li>

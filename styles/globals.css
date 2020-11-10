@@ -180,7 +180,7 @@ label {
   min-height: 0.5em;
   min-width: 0.5em;
   width: 100%;
-  background-color: white;
+  background-color: black;
 }
 .footer {
   background-color: #333;
@@ -196,4 +196,41 @@ h1 {
   letter-spacing: 0.1px !important;
   line-height: 21px !important;
   border: none;
+}
+/*********************************************************
+Home
+*********************************************************/
+.home-content {
+  background-color: blue;
+  padding-top: 50px;
+  padding-bottom: 330px;
+}
+.aboutBtn {
+  background-color: #333;
+  color: whitesmoke;
+}
+/*********************************************************
+About
+*********************************************************/
+.about {
+  padding-top: 10px;
+  padding-bottom: 120px;
+}
+/*********************************************************
+Skills
+*********************************************************/
+.skills {
+  padding-top: 10px;
+  padding-bottom: 285px;
+}
+/*********************************************************
+Contact
+*********************************************************/
+.img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.contact {
+  padding-bottom: 135px;
+  padding-top: 15px;
 }
