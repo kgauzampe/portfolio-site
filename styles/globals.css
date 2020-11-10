@@ -1,0 +1,199 @@
+/****************************************************************
+Navbar
+******************************************************************/
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  display: table;
+  background-color: whitesmoke;
+  margin-bottom: 0px;
+  -webkit-box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.52);
+}
+.navbar-logo {
+  margin-left: 50px;
+}
+
+#logo {
+  float: left;
+  right: -50px;
+}
+header nav {
+  width: auto;
+  float: right;
+}
+
+header nav ul li {
+  float: left;
+  list-style-type: none;
+}
+
+header nav ul li:last-child {
+  padding-right: 0px;
+}
+
+header nav ul li a {
+  color: black;
+  font-size: 18px;
+  padding: 25px 20px;
+  display: inline-block;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background-color: rgb(2, 100, 104);
+  color: white;
+  transition: all 0.5s ease 0s;
+}
+
+header nav ul li a:hover i {
+  color: black;
+  transition: all 0.5s ease 0s;
+  background-color: rgba(170, 3, 3, 0.73);
+}
+
+header nav ul li a i {
+  padding-right: 10px;
+  color: black;
+  transition: all 0.5s ease 0s;
+}
+
+header .toggle-menu ul {
+  display: table;
+  width: 25px;
+}
+
+header .toggle-menu ul li {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(10, 17, 17);
+  margin-bottom: 4px;
+  list-style-type: none;
+}
+
+header .toggle-menu ul li:last-child {
+  margin-bottom: 0px;
+}
+
+header input[type="checkbox"],
+label {
+  display: none;
+}
+
+@media only screen and (max-width: 980px) {
+  header {
+    padding: 0px 20px;
+  }
+
+  #logo {
+    padding: 0px;
+  }
+
+  header input[type="checkbox"] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    background: none;
+  }
+
+  header input[type="checkbox"]:focus {
+    background: none;
+  }
+
+  header label {
+    padding: 8px 0px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  header input[type="checkbox"]:checked ~ nav {
+    display: block;
+  }
+
+  header nav {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 53px;
+    padding: 0px;
+    z-index: 99;
+  }
+
+  header nav ul {
+    width: 10.5rem;
+  }
+
+  header nav ul li {
+    float: none;
+    padding: 0px;
+    width: 100%;
+    display: table;
+  }
+  .toggle-menu {
+    background-color: white;
+  }
+
+  header nav ul li a {
+    color: blue;
+    font-size: 15px;
+    padding: 10px 20px;
+    display: block;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.1);
+    transition: all 250ms ease-in-out;
+  }
+
+  header nav ul li a:hover {
+    color: black;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-logo {
+    max-height: 65%;
+  }
+  header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header {
+    max-height: 2em;
+  }
+}
+/***********************************************************************
+  Footer
+  ***********************************************************************/
+.footer {
+  padding: 2.5em;
+  /* margin-top: 60px; */
+  min-height: 0.5em;
+  min-width: 0.5em;
+  width: 100%;
+  background-color: white;
+}
+.footer {
+  background-color: #333;
+}
+.footer p,
+h1 {
+  color: white;
+}
+.subtext1 {
+  background-color: #bdbdbd !important;
+  font-family: Roboto !important;
+  font-size: 16px !important;
+  letter-spacing: 0.1px !important;
+  line-height: 21px !important;
+  border: none;
+}
