@@ -45,8 +45,7 @@ export default function Footer() {
                     Developed by Mpumelelo Mpe
                   </Link>{" "}
                   {new Date().getFullYear()}
-                  {"."}
-                  Version 0.0.1
+                  {""}
                 </Typography>
               </center>
             </Grid>
