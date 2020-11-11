@@ -1,31 +1,102 @@
 import React from "react";
 import Navbar from "../components/NavBar";
 import Footer from "../components/footer";
-import { Container, Typography } from "@material-ui/core";
+import { Container, Grid, Typography } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+import StarIcon from "@material-ui/icons/Star";
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: "100%",
+    maxWidth: 360,
+    backgroundColor: theme.palette.background.paper,
+  },
+}));
 
 export default function Skills() {
   return (
     <>
       <Navbar />
+
       <div className="skills">
+        <Typography component="h1" variant="h2">
+          Skills
+        </Typography>
         <Container>
-          <center>
-            <Typography color="black" component="h2" variant="h2">
-              Skills
-            </Typography>
-            <div className="skills-Banner">
-              <ul className="skills-list">
-                <li>React</li>
-                <li>Javascript </li>
-                <li>Nodejs</li>
-                <li>Jasmine</li>
-                <li>Nextjs</li>
-                <li>Material-UI</li>
-                <li>Jest</li>
-                <li>Docker</li>
-              </ul>
-            </div>
-          </center>
+          <Grid container spacing={1} justify="center" align="center">
+            <Grid item xs={12} md={6} lg={6}>
+              <List component="nav" aria-label="skills">
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="NextJs" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="ReactJs" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="JavaScript" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="NodeJs" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="Jasmine" />
+                </ListItem>
+              </List>
+            </Grid>
+            <Grid item xs={12} md={6} lg={6}>
+              <List component="nav" aria-label="skills">
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="Jest" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="DynamoDB" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="Docker" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="HTML5" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="CSS" />
+                </ListItem>
+              </List>
+            </Grid>
+          </Grid>
         </Container>
       </div>
       <Footer />

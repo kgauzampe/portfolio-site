@@ -1,3 +1,11 @@
+/******************************************************************************
+ css reset
+ ******************************************************************************/
+
+@font-face {
+  font-family: roboto;
+  src: url(./font/Roboto-Regular.ttf);
+}
 /****************************************************************
 Navbar
 ******************************************************************/
@@ -200,28 +208,83 @@ h1 {
 /*********************************************************
 Home
 *********************************************************/
-.home-content {
-  background-color: blue;
-  padding-top: 50px;
-  padding-bottom: 330px;
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1.9;
+  text-align: center;
+  height: 77vh;
+  color: white;
+  background-image: repeating-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/homeback.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .aboutBtn {
-  background-color: #333;
-  color: whitesmoke;
+  /* margin-top: 50px; */
+  background: #111010;
+  border: 1px solid #fbfbfb;
+  box-sizing: border-box;
+}
+.Home-content {
+  padding-bottom: 180px;
 }
 /*********************************************************
 About
 *********************************************************/
 .about {
-  padding-top: 10px;
-  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1.9;
+  text-align: center;
+  height: 77vh;
+  color: white;
+  background-image: repeating-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.about-img {
+  border-radius: 100%;
+}
+.about p {
+  width: 60%;
 }
 /*********************************************************
 Skills
 *********************************************************/
 .skills {
-  padding-top: 10px;
-  padding-bottom: 285px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1.9;
+  text-align: center;
+  height: 77vh;
+  color: white;
+  background-image: repeating-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /*********************************************************
 Contact
@@ -231,6 +294,21 @@ Contact
   height: 3.5rem;
 }
 .contact {
-  padding-bottom: 135px;
-  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1.9;
+  text-align: center;
+  height: 77vh;
+  color: white;
+  background-image: repeating-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
