@@ -215,7 +215,7 @@ Home
   flex-direction: column;
   opacity: 1.9;
   text-align: center;
-  height: 77vh;
+  height: 100vh;
   color: white;
   background-image: repeating-linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -246,7 +246,7 @@ About
   flex-direction: column;
   opacity: 1.9;
   text-align: center;
-  height: 77vh;
+  height: 100vh;
   color: white;
   background-image: repeating-linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -260,6 +260,8 @@ About
 }
 .about-img {
   border-radius: 100%;
+  align-items: center;
+  padding-bottom: 10px;
 }
 .about p {
   width: 60%;
@@ -274,7 +276,7 @@ Skills
   flex-direction: column;
   opacity: 1.9;
   text-align: center;
-  height: 77vh;
+  height: 100vh;
   color: white;
   background-image: repeating-linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -300,7 +302,7 @@ Contact
   flex-direction: column;
   opacity: 1.9;
   text-align: center;
-  height: 77vh;
+  height: 100vh;
   color: white;
   background-image: repeating-linear-gradient(
       rgba(0, 0, 0, 0.5),
