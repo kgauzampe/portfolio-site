@@ -92,7 +92,7 @@ export default function Skills() {
                   <ListItemIcon>
                     <StarIcon />
                   </ListItemIcon>
-                  <ListItemText primary="CSS" />
+                  <ListItemText primary="CSS3" />
                 </ListItem>
               </List>
             </Grid>
