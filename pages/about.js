@@ -28,7 +28,7 @@ export default function About() {
             started my internship at Turati Software where i was a Junior
             Software Engineer which ended in November. With the skills and
             Knowledge i aqcuired during my learnership and internship i aspire
-            to become a great frontend developer
+            to become a great frontend developer.
           </Typography>
         </Container>
       </div>
