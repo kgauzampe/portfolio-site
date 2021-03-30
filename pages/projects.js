@@ -19,6 +19,11 @@ export default function Projects() {
                 <a>Classic Snake game</a>
               </Link>
             </li>
+            <li>
+              <Link href="https://sho-weather.vercel.app//">
+                <a>Weather App</a>
+              </Link>
+            </li>
           </Container>
         </div>
         <Footer />
