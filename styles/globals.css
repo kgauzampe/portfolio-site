@@ -215,6 +215,7 @@ Home
   flex-direction: column;
   opacity: 1.9;
   text-align: center;
+  width: 100%;
   height: 100vh;
   color: white;
   background-image: repeating-linear-gradient(
@@ -246,6 +247,7 @@ About
   flex-direction: column;
   opacity: 1.9;
   text-align: center;
+  width: 100%;
   height: 100vh;
   color: white;
   background-image: repeating-linear-gradient(
@@ -276,6 +278,7 @@ Skills
   flex-direction: column;
   opacity: 1.9;
   text-align: center;
+ width: 100%;
   height: 100vh;
   color: white;
   background-image: repeating-linear-gradient(
@@ -302,6 +305,7 @@ Contact
   flex-direction: column;
   opacity: 1.9;
   text-align: center;
+  width: 100%;
   height: 100vh;
   color: white;
   background-image: repeating-linear-gradient(
