@@ -216,7 +216,7 @@ Home
   opacity: 1.9;
   text-align: center;
   width: 100%;
-  height: 100vh;
+ height: 80vh;
   color: white;
   background-image: repeating-linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -248,7 +248,7 @@ About
   opacity: 1.9;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   color: white;
   background-image: repeating-linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -278,8 +278,8 @@ Skills
   flex-direction: column;
   opacity: 1.9;
   text-align: center;
- width: 100%;
-  height: 100vh;
+  width: 100%;
+  height: 80vh;
   color: white;
   background-image: repeating-linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -298,6 +298,26 @@ Contact
   width: 3.5rem;
   height: 3.5rem;
 }
+.projects {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1.9;
+  text-align: center;
+  width: 100%;
+ height: 80vh;
+  color: white;
+  background-image: repeating-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
 .contact {
   display: flex;
   justify-content: center;
@@ -306,7 +326,7 @@ Contact
   opacity: 1.9;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   color: white;
   background-image: repeating-linear-gradient(
       rgba(0, 0, 0, 0.5),
