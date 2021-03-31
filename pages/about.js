@@ -28,7 +28,7 @@ export default function About() {
             at Turati Software where i was a Junior Software Engineer which
             ended in November 2020 . With the skills and Knowledge i aqcuired
             during my learnership and internship i aspire to become a great
-            frontend developer.
+            frontend developer, and Full-Stack in the near future.
           </Typography>
         </Container>
       </div>
