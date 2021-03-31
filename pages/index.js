@@ -16,7 +16,7 @@ export default function Home() {
               </Typography>
 
               <Typography component="h4" variant="h4">
-                Junior Web developer
+                Web developer
               </Typography>
 
               <Button variant="contained" className="aboutBtn" href="/about">
