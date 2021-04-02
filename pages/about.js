@@ -24,10 +24,10 @@ export default function About() {
             enviroment I have had the pleasure of being part of a team who
             participated in the Global Legal Hackathon in 2020 and we won the
             third spot. Aside from the tech world I am a real lover of contact
-            sport and people development. In June 2020 i started my internship
-            at Turati Software where i was a Junior Software Engineer which
-            ended in November 2020 . With the skills and Knowledge i aqcuired
-            during my learnership and internship i aspire to become a great
+            sport and people development. In June 2020 I started my internship
+            at Turati Software where I was a Junior Software Engineer which
+            ended in November 2020 . With the skills and Knowledge I aqcuired
+            during my learnership and internship I aspire to become a great
             frontend developer, and Full-Stack in the near future.
           </Typography>
         </Container>
