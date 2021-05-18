@@ -27,6 +27,7 @@ export default function Skills() {
           Skills
         </Typography>
         <Container>
+          <center>
           <Grid container spacing={1} justify="center" align="center">
             <Grid item xs={12} md={6} lg={6}>
               <List component="nav" aria-label="skills">
@@ -53,6 +54,18 @@ export default function Skills() {
                     <StarIcon />
                   </ListItemIcon>
                   <ListItemText primary="NodeJs" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="PHP" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="Wordpress" />
                 </ListItem>
                 <ListItem button>
                   <ListItemIcon>
@@ -97,6 +110,7 @@ export default function Skills() {
               </List>
             </Grid>
           </Grid>
+          </center>
         </Container>
       </div>
       <Footer />

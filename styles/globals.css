@@ -255,8 +255,10 @@ About
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: -5px;
 }
 .about-img {
+  margin-top: 20px;
   border-radius: 100%;
   align-items: center;
   padding-bottom: 10px;
