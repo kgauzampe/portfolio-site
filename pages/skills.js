@@ -74,8 +74,6 @@ export default function Skills() {
                   <ListItemText primary="Jasmine" />
                 </ListItem>
               </List>
-            </Grid>
-            <Grid item xs={12} md={6} lg={6}>
               <List component="nav" aria-label="skills">
                 <ListItem button>
                   <ListItemIcon>
