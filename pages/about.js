@@ -27,7 +27,7 @@ export default function About() {
             sport and people development. In June 2020 I started my internship
             at Turati Software where I was a Junior Software Engineer which
             ended in November 2020 . With the skills and Knowledge I aqcuired
-            during my learnership and internship I aspire to become a great
+            during my learnership, internship and as a Junior Software Engineer at Suppl-i I aspire to become a great
             frontend developer, and Full-Stack in the near future.
           </Typography>
         </Container>
