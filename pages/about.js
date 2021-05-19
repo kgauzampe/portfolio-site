@@ -16,19 +16,16 @@ export default function About() {
             <img src="/img/kgauza.png" alt="grad1img" className="about-img" />
           </center>
           <Typography component="h8" variant="h8">
-            I am software devloper who has a keen intrest in advancing my
-            software skills and intergrating design with better functionality.
-            Throughout the years I have embraced different leadership positions
-            from peer faciliation to serving as the Chairperson in the health
-            and wellness deparment within my University. Within the tech
-            enviroment I have had the pleasure of being part of a team who
-            participated in the Global Legal Hackathon in 2020 and we won the
-            third spot. Aside from the tech world I am a real lover of contact
-            sport and people development. In June 2020 I started my internship
-            at Turati Software where I was a Junior Software Engineer which
-            ended in November 2020 . With the skills and Knowledge I aqcuired
-            during my learnership, internship and as a Junior Software Engineer at Suppl-i I aspire to become a great
-            frontend developer, and Full-Stack in the near future.
+            I am a software developer growing my skills. 
+            A tech graduate, who got the opportunity to intern 
+            as a junior software engineer in 2020 and further 
+            work as a developer on an upcoming ecommerce based
+            company. I'm a huge fan of networking whether it's 
+            on the sport field or working on a hackerton. 
+            A team player who was a part of an awesome team 
+            during the 2020 Global Legal Hackathon and we won 
+            the third spot. I am always in search for ways 
+            to grow myself and be better in my field.
           </Typography>
         </Container>
       </div>
