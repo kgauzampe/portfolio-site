@@ -94,6 +94,12 @@ export default function Skills() {
                   <ListItemIcon>
                     <StarIcon />
                   </ListItemIcon>
+                  <ListItemText primary="SQL" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
                   <ListItemText primary="Docker" />
                 </ListItem>
                 <ListItem button>
