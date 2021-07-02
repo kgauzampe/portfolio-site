@@ -67,12 +67,7 @@ export default function Skills() {
                   </ListItemIcon>
                   <ListItemText primary="Wordpress" />
                 </ListItem>
-                <ListItem button>
-                  <ListItemIcon>
-                    <StarIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="Jasmine" />
-                </ListItem>
+                
               </List>
               </Grid>
               <Grid item xs={12} md={6} lg={6}>
@@ -106,6 +101,12 @@ export default function Skills() {
                     <StarIcon />
                   </ListItemIcon>
                   <ListItemText primary="CSS3" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="Jasmine" />
                 </ListItem>
               </List>
             </Grid>
