@@ -59,6 +59,12 @@ export default function Skills() {
                   <ListItemIcon>
                     <StarIcon />
                   </ListItemIcon>
+                  <ListItemText primary="express" />
+                </ListItem>
+                <ListItem button>
+                  <ListItemIcon>
+                    <StarIcon />
+                  </ListItemIcon>
                   <ListItemText primary="PHP" />
                 </ListItem>
                 <ListItem button>
@@ -76,7 +82,7 @@ export default function Skills() {
                   <ListItemIcon>
                     <StarIcon />
                   </ListItemIcon>
-                  <ListItemText primary="Jest" />
+                  <ListItemText primary="MongoDB" />
                 </ListItem>
                 <ListItem button>
                   <ListItemIcon>
