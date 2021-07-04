@@ -23,7 +23,7 @@ body {
 header {
   display: table;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: #333;
   margin-bottom: 0px;
   -webkit-box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.52);
   -moz-box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.52);
@@ -149,7 +149,7 @@ label {
     display: table;
   }
   .toggle-menu {
-    background-color: white;
+    background-color: gray;
   }
 
   header nav ul li a {
