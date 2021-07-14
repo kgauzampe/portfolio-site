@@ -153,7 +153,7 @@ label {
   }
 
   header nav ul li a {
-    color: blue;
+    color: rgb(231, 231, 241);
     font-size: 15px;
     padding: 10px 20px;
     display: block;
@@ -193,7 +193,7 @@ label {
 }
 .footer p,
 h1 {
-  color: white;
+  color:black;
 }
 .subtext1 {
   background-color: #bdbdbd !important;
