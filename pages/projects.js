@@ -24,6 +24,11 @@ export default function Projects() {
                 <a>Weather App</a>
               </Link>
             </li>
+            <li>
+              <Link href="https://github.com/kgauzampe?tab=repositories">
+                <a>For more projects</a>
+              </Link>
+            </li>
           </Container>
         </div>
         <Footer />
