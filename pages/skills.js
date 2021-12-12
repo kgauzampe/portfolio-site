@@ -27,7 +27,7 @@ export default function Skills() {
           Skills
         </Typography>
         <Typography component="h4" variant="h4">
-          All projects are web based and do not work on mobile!
+          Projects are not mobile based !
         </Typography>
         <Container>
           <center>
