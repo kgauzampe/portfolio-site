@@ -59,37 +59,13 @@ export default function Skills() {
                   <ListItemIcon>
                     <StarIcon />
                   </ListItemIcon>
-                  <ListItemText primary="express" />
-                </ListItem>
-                <ListItem button>
-                  <ListItemIcon>
-                    <StarIcon />
-                  </ListItemIcon>
                   <ListItemText primary="PHP" />
-                </ListItem>
-                <ListItem button>
-                  <ListItemIcon>
-                    <StarIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="Wordpress" />
                 </ListItem>
                 
               </List>
               </Grid>
               <Grid item xs={12} md={6} lg={6}>
               <List component="nav" aria-label="skills">
-                <ListItem button>
-                  <ListItemIcon>
-                    <StarIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="MongoDB" />
-                </ListItem>
-                <ListItem button>
-                  <ListItemIcon>
-                    <StarIcon />
-                  </ListItemIcon>
-                  <ListItemText primary="DynamoDB" />
-                </ListItem>
                 <ListItem button>
                   <ListItemIcon>
                     <StarIcon />
