@@ -23,7 +23,7 @@ export default function Skills() {
       <Navbar />
 
       <div className="skills">
-        <Typography component="h1" variant="h2">
+        <Typography component="h2" variant="h2">
           Skills
         </Typography>
         <Container>

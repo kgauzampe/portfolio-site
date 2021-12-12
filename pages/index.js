@@ -11,7 +11,7 @@ export default function Home() {
         <div className="home-content">
           <Container>
             <center>
-              <Typography  color="white" component="h1" variant="h2">
+              <Typography component="h2" variant="h2">
                 Mpumelelo Mpe
               </Typography>
 
