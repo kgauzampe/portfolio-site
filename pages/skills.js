@@ -26,9 +26,6 @@ export default function Skills() {
         <Typography component="h2" variant="h2">
           Skills
         </Typography>
-        <Typography component="h4" variant="h4">
-          Projects are not mobile based !
-        </Typography>
         <Container>
           <center>
           <Grid container spacing={1} justify="center" align="center">

@@ -14,6 +14,9 @@ export default function Projects() {
             <Typography color="black" component="h2" variant="h2">
               Projects
             </Typography>
+            <Typography component="h4" variant="h4">
+                Projects are not mobile based !
+            </Typography>
             <li>
               <Link href="https://snake-game-gilt.vercel.app/">
                 <a>Classic Snake game</a>
