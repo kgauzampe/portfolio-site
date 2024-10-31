@@ -23,13 +23,13 @@ export default function Projects() {
               </Link>
             </li>
             <li>
-              <Link href="https://sho-weather.vercel.app//">
-                <a>Weather App</a>
+              <Link href="https://https://econoteque.com/">
+                <a>econoTeque</a>
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/kgauzampe?tab=repositories">
-                <a>For more projects</a>
+              <Link href="https://astrachem.vercel.app/">
+                <a>Astrachem</a>
               </Link>
             </li>
           </Container>
